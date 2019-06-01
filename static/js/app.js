@@ -21,6 +21,7 @@ for ( let x = 0 ; x< data.length ; x++){
  
  
 function clickHandler(event){
+    d3.event.preventDefault();
     var inVal ;
     var new_data;
     new_data = data ;
